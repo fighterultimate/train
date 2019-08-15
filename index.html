@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/reset.css">
+<link rel="stylesheet" href="/train.css">
+  </head>
+<body>
+    
+  <div class="jumbotron">
+    <h1 class="display-4">Train Stop!</h1>
+    <p class="lead">Let us help you catch your train on time!!!</p>
+    <hr class="my-4">
+    </div>
+
+  <table class="table table-borderless table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Train Name</th>
+        <th scope="col">Destination</th>
+        <th scope="col">Frequency</th>
+        <th scope="col">Next Arrival</th>
+        <th scope="col">Minutes Away</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Trans-Siberian Express</td>
+        <td>Vladivostok</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Orient Express</td>
+        <td>Paris</td>
+        <td>@fat</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Flying Scotsman</td>
+        <td>Scotland </td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Golden Arrow</td>
+        <td>London </td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Bullet Train</td>
+        <td>Tokyo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <form>
+    <h3>ADD A TRAIN!</h3>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Train name</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Train">
+      </div>
+      
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Destination</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Santas workshop">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">First Train Time</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="10:00">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">Frequency</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="15 minutes">
+      </div>
+      
+      
+    </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">ADD</button>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+
+<script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+
+<script src="train.js"></script>
+
+</body>
+</html>
